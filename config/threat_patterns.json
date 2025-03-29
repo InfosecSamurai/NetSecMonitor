@@ -1,0 +1,10 @@
+{
+  "port_scanning": [21, 22, 23, 25, 80, 443, 3306, 3389],
+  "malicious_ports": [4444, 5555, 6666, 8080, 1337],
+  "suspicious_domains": ["malware.com", "phishing.org"],
+  "protocol_anomalies": {
+    "tcp": ["SYN flood", "NULL scan"],
+    "udp": ["DNS amplification"],
+    "icmp": ["Ping of Death"]
+  }
+}
