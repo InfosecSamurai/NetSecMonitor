@@ -75,27 +75,6 @@ python netsec.py -r suspicious_traffic.pcap
 | `-r PCAP_FILE` | Analyze existing PCAP | None |  
 | `--http-only` | Monitor HTTP only | False |  
 
-## 📂 Project Structure  
-```
-NetSecMonitor/
-├── config/               # Detection rules and patterns
-│   └── threat_patterns.json
-├── core/                # Main processing logic
-│   ├── packet_sniffer.py
-│   ├── analyzer.py
-│   └── detector.py
-├── utils/               # Support modules
-│   ├── logger.py
-│   └── reporter.py
-├── tests/               # Unit tests
-│   ├── test_packets.pcap
-│   └── test_analysis.py
-├── docs/                # Documentation
-│   └── analysis_rules.md
-├── requirements.txt
-├── README.md
-└── netsec.py            # Main entry point
-```
 
 ## 🧪 Testing  
 ```bash
